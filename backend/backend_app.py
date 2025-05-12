@@ -74,7 +74,7 @@ embeddings = AzureOpenAIEmbeddings(
 )
 
 # Connect to Azure AI Search endpoint with key we can change this to erdc endpoint and use managed identity
-index_name = "ky-rate-case-index2"  # Replace with erdc index name
+index_name = "ky-rate-case-index2"  # Replace with your index name
 vector_store = AzureSearch(
     azure_search_endpoint="https://your-ai-endpoint.search.windows.net",
     azure_search_key="your-key",
